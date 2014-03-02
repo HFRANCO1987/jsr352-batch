@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="exemplo" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+    <step id="passoUm">
+        <chunk item-count="1">
+            <reader ref="exemploReader"/>
+            <processor ref="exemploProcessor"/>
+            <writer ref="exemploWriter"/>
+        </chunk>
+    </step>
+</job>
